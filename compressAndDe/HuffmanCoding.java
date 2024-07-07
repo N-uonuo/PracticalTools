@@ -4,6 +4,10 @@ import java.io.*;
 //import java.nio.charset.StandardCharsets;
 import java.util.*;
 
+//how to use:
+//java tools.compressAndDe.HuffmanCoding compress "input file address" "new output file address"
+//java tools.compressAndDe.HuffmanCoding decompress "output file address" "new input file address"
+
 public class HuffmanCoding {
 
     private String[] huffmanCodes = new String[256]; // 用于存储每个字符的编码
